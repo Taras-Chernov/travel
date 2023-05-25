@@ -1,1 +1,1 @@
-https://Taras-Chernov.github.io/travel
+https://Taras-Chernov.github.io/travel/
