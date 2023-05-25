@@ -56,6 +56,20 @@ p {
   margin: 0;
 }
 
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.layout-3-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.layout-3-column > * {
+  flex-basis: 30%;
+}
+
 .button {
   font-family: "Red Hat Text";
   font-style: normal;
@@ -97,11 +111,6 @@ p {
 .button_arrow {
   vertical-align: sub;
   margin-right: 12.5px;
-}
-
-.wrapper {
-  max-width: 1200px;
-  margin: auto;
 }
 
 .header {
@@ -241,15 +250,6 @@ p {
   font-size: 2rem;
   line-height: 2.4rem;
   color: #0D606F;
-}
-
-.layout-3-column {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.layout-3-column > * {
-  flex-basis: 30%;
 }
 
 .destinations h2 {
