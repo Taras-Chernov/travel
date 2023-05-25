@@ -1,0 +1,38 @@
+  html {
+    font-size: 10px;
+  }
+  body {
+    font-size: 1.6rem;
+    font-family: 'Open Sans', Verdana, sans-serif;
+    max-width: 1440px;
+    margin: auto;
+  }
+
+  h1 {
+    @extend %font-primary;
+    @include font ($size: 8rem, $height:9.6rem, $weight: 700);
+    font-weight: 700;
+    color: $color-main;
+  }
+
+  h2 {
+    font-family: 'Red Hat Text', Verdana, sans-serif;
+    @include font ($size: 4rem, $height:5.3rem, $weight: 500);
+    color: $color-title;
+    text-align: center;
+  }
+
+  h3 {
+    @include font ($size: 3.5rem, $height:4.2rem, $weight: 400);
+    font-family: 'Aleo', Verdana, sans-serif;
+    margin: 0;
+    color: $color-text;
+  }
+
+  p {
+    @include font ($size: 2rem, $height:2.4rem, $weight: 400);
+    font-family: 'Aleo', Verdana, sans-serif;
+    color: $color-text;
+    margin: 0;
+  }
+

@@ -1,0 +1,21 @@
+//contants
+@import "../sass/abstract/constants";
+@import "../sass/abstract/mixins";
+@import "../sass/abstract/placeholders";
+//base
+@import "../sass/base/base";
+@import "../sass/base/buttons";
+
+//layouts
+@import "../sass/layouts/wrapper";
+
+//components
+@import "../sass/components/header";
+@import "../sass/components/preview";
+@import "../sass/components/steps";
+
+
+@import "../sass/layouts/columns";
+@import "../sass/components/destinations";
+@import "../sass/components/stories";
+@import "../sass/components/footer"
