@@ -1,14 +1,13 @@
-.stories {
-    &__bgimg {
-    background: url(../assets/img/travel_bg.jpg);
-    }
-    &__bg{
-        background-color: rgba(255, 255, 255, 0.7);
+.stories__wrapper {
+    background-color: rgba(255, 255, 255, 0.7);
+    background: url(/assets/img/footer_bg.png);
+    background-repeat: no-repeat;
+   
     }
     h2 {
         margin-top: 80px;
     }
-}
+
 
 .story {
     display: flex;

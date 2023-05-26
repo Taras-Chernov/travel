@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,400;1,700&family=Magra:wght@700&family=Red+Hat+Text:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="/simple-adaptive-slider.min.js"></script>
 </head>
 <body>
     <header class="header">
@@ -72,21 +73,31 @@
             <div class="wrapper">
                 <h2>POPULAR DESTINATIONS</h2>
                 <div class="slider">
-                    <div class="slide1">
-
+                    <div class="slider__wrapper">
+                        <div class="slider__items">
+                            <div class="slider__item">
+                                <div style="height: 800px; background: url(/assets/img/slider_slide1.png);"></div>
+                            </div>
+                            <div class="slider__item">
+                                <div style="height: 800px; background: url(/assets/img/slider_slide2.png);"></div>
+                            </div>
+                            <div class="slider__item">
+                                <div style="height: 800px; background: url(/assets/img/slider_slide3.png);"></div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="slider__dotes"></div>
+                    <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+                    <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+                  </div>
                 <button class="button button_bordered button_colored button_story"><object class="button_arrow" type="image/svg+xml" data="/assets/icon/arrow.svg"></object>Find More</button>
             </div>
         </section>
         <section class="stories">
             <h2>TRAVEL STORIES</h2>
-            <div class="stories__bgimg">
-                <div class="stories__bg">
-                    <div class="wrapper">
+                <div class="wrapper">
+                    <div class="stories__wrapper">
                         <div class="story">
-                                <img src="./assets/img/story1.png" alt="foto story 1" class="story__img">
+                            <img src="./assets/img/story1.png" alt="foto story 1" class="story__img">
                             <div class="story__text">
                                 <h3>10 Photos of Attractive Thailand</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
@@ -94,7 +105,7 @@
                             </div>
                         </div>
                         <div class="story">
-                                <img src="./assets/img/story2.png" alt="foto story 2" class="story__img">
+                            <img src="./assets/img/story2.png" alt="foto story 2" class="story__img">
                             <div class="story__text">
                                 <h3>Canyonlands National Park, Utah</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
@@ -118,11 +129,10 @@
                             </div>
                         </div>
                         <div class="story__button">
-                             <button class="button button_bordered button_colored button_story"><object class="button_arrow" type="image/svg+xml" data="/assets/icon/arrow.svg"></object>See More</button>
+                            <button class="button button_bordered button_colored button_story"><object class="button_arrow" type="image/svg+xml" data="/assets/icon/arrow.svg"></object>See More</button>
                         </div>
-                            </div>
+                    </div>
                 </div>
-            </div>
         </section>
     </main>
     <footer class="footer">

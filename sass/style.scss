@@ -3,20 +3,20 @@
 @import "../sass/abstracts/mixins";
 @import "../sass/abstracts/placeholders";
 //core
-@import "../sass/core/base";
+@import "../sass/base/base";
+@import "../sass/base/wrapper";
 
 
 //layouts
-@import "../sass/layouts/wrapper";
-@import "../sass/layouts/columns";
+@import "../sass/layout/columns";
 
 //components
 @import "../sass/components/buttons";
 
-//section
-@import "../sass/sections/header";
-@import "../sass/sections/preview";
-@import "../sass/sections/steps";
-@import "../sass/sections/destinations";
-@import "../sass/sections/stories";
-@import "../sass/sections/footer";
+//layout
+@import "../sass/layout/header";
+@import "../sass/layout/preview";
+@import "../sass/layout/steps";
+@import "../sass/layout/destinations";
+@import "../sass/layout/stories";
+@import "../sass/layout/footer";

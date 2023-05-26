@@ -178,7 +178,7 @@ p {
 }
 
 .preview {
-  background: url(../assets/img/promo_bg.jpg);
+  background: url(/assets/img/header-bg.png);
   background-size: cover;
   background-position: center;
 }
@@ -256,13 +256,13 @@ p {
   margin-top: 97px;
 }
 
-.stories__bgimg {
-  background: url(../assets/img/travel_bg.jpg);
-}
-.stories__bg {
+.stories__wrapper {
   background-color: rgba(255, 255, 255, 0.7);
+  background: url(/assets/img/footer_bg.png);
+  background-repeat: no-repeat;
 }
-.stories h2 {
+
+h2 {
   margin-top: 80px;
 }
 
@@ -294,8 +294,8 @@ p {
 }
 
 .footer {
-  background: url(/assets/img/travel_bg.jpg);
   display: flex;
+  top: -50px;
 }
 
 .social {
