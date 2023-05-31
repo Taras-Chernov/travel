@@ -1,13 +1,13 @@
+.stories {
+}
 .stories__wrapper {
-    background-color: rgba(255, 255, 255, 0.7);
-    background: url(/assets/img/footer_bg.png);
+    background: url(/assets/img/footer_bg.png) repeat scroll 0 0 transparent;;
+   // background: rgba(255, 255, 255, 0.7);
     background-repeat: no-repeat;
-   
-    }
+}
     h2 {
         margin-top: 80px;
     }
-
 
 .story {
     display: flex;

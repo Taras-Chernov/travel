@@ -5,19 +5,33 @@
     }
 }
 
-.destinations__wrapper {
-
+.destinations {
+    overflow: hidden;
 }
 
 .slider {
     display: flex;
     justify-content: center;
+    &__country {
+        position: absolute;
+        top: 718px;
+        left: 15px;
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 42px;
+        color: $color-main;
+    }
 }
 
 .slider__item {
+    position: relative;
     max-height: 800px;
     max-width: 800px;
+    margin: 30px;
     & img {
-        height: 800px;
+        max-height: 800px;
+        border-radius: 16px;
     }
 }

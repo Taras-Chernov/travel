@@ -113,6 +113,11 @@ p {
   margin-right: 12.5px;
 }
 
+.button__destinations {
+  display: flex;
+  justify-content: center;
+}
+
 .header {
   background: rgba(242, 120, 92, 0.7);
   box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
@@ -256,22 +261,39 @@ p {
   margin-top: 97px;
 }
 
+.destinations {
+  overflow: hidden;
+}
+
 .slider {
   display: flex;
   justify-content: center;
 }
+.slider__country {
+  position: absolute;
+  top: 718px;
+  left: 15px;
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  color: #FFFFFF;
+}
 
 .slider__item {
+  position: relative;
   max-height: 800px;
   max-width: 800px;
+  margin: 30px;
 }
 .slider__item img {
-  height: 800px;
+  max-height: 800px;
+  border-radius: 16px;
 }
 
 .stories__wrapper {
-  background-color: rgba(255, 255, 255, 0.7);
-  background: url(/assets/img/footer_bg.png);
+  background: url(/assets/img/footer_bg.png) repeat scroll 0 0 transparent;
   background-repeat: no-repeat;
 }
 
