@@ -256,6 +256,19 @@ p {
   margin-top: 97px;
 }
 
+.slider {
+  display: flex;
+  justify-content: center;
+}
+
+.slider__item {
+  max-height: 800px;
+  max-width: 800px;
+}
+.slider__item img {
+  height: 800px;
+}
+
 .stories__wrapper {
   background-color: rgba(255, 255, 255, 0.7);
   background: url(/assets/img/footer_bg.png);

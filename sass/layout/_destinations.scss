@@ -4,3 +4,20 @@
         margin-top: 97px;
     }
 }
+
+.destinations__wrapper {
+
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+}
+
+.slider__item {
+    max-height: 800px;
+    max-width: 800px;
+    & img {
+        height: 800px;
+    }
+}
