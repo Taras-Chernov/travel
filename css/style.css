@@ -292,9 +292,17 @@ p {
   border-radius: 16px;
 }
 
+.stories {
+  position: relative;
+  z-index: 1;
+}
+
 .stories__wrapper {
-  background: url(/assets/img/footer_bg.png) repeat scroll 0 0 transparent;
+  position: absolute;
+  z-index: -1;
+  background: url(/assets/img/footer_bg.png);
   background-repeat: no-repeat;
+  opacity: 0.7;
 }
 
 h2 {
