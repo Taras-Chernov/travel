@@ -1,9 +1,17 @@
 .footer {
-    display: flex;
-    top: -50px;
+    background: url(/assets/img/footer_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
 }
 
 .social{
-    display: flex;
     list-style: none;
+}
+
+.footer__wrapper {
+    display: flex;
+}
+.social__list {
+    display: flex;
 }
