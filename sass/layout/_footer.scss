@@ -3,15 +3,38 @@
     background-repeat: no-repeat;
     background-position: bottom;
     width: 100%;
+    &__description{
+        display: flex;
+        flex-basis: 90%;
+        justify-content: center;
+        padding: 21px 0;
+        margin-left: 100px;
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 2.1rem;
+
+color: #FFFFFF;
+    }
 }
 
 .social{
-    list-style: none;
+    flex-basis: 10%;
+    &__list {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        justify-content: end;
+        & li{
+            &:not(:last-child) {
+                margin-right: 24px;
+            }
+        }
+    }
 }
 
 .footer__wrapper {
     display: flex;
-}
-.social__list {
-    display: flex;
+    align-items: center;
 }

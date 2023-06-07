@@ -34,6 +34,7 @@ h2 {
   line-height: 5.3rem;
   color: #F2785C;
   text-align: center;
+  margin: 0;
 }
 
 h3 {
@@ -53,6 +54,11 @@ p {
   line-height: 2.4rem;
   font-family: "Aleo", Verdana, sans-serif;
   color: #0D606F;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
   margin: 0;
 }
 
@@ -186,6 +192,7 @@ p {
   background: url(/assets/img/header-bg.png);
   background-size: cover;
   background-position: center;
+  margin-bottom: 80px;
 }
 
 .preview__content {
@@ -227,10 +234,6 @@ p {
   padding-left: 41px;
 }
 
-.steps h2 {
-  margin-top: 80px;
-}
-
 .step__icon {
   display: flex;
   align-items: center;
@@ -245,7 +248,7 @@ p {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 40px;
+  margin: 40px 0 97px 0;
 }
 .step p {
   margin-top: 30px;
@@ -257,17 +260,15 @@ p {
   color: #0D606F;
 }
 
-.destinations h2 {
-  margin-top: 97px;
-}
-
 .destinations {
   overflow: hidden;
+  margin-bottom: 80px;
 }
 
 .slider {
   display: flex;
   justify-content: center;
+  margin: 46px 0 24px 0;
 }
 .slider__country {
   position: absolute;
@@ -285,20 +286,41 @@ p {
   position: relative;
   max-height: 800px;
   max-width: 800px;
-  margin: 30px;
+  margin: 0 30px;
 }
 .slider__item img {
   max-height: 800px;
   border-radius: 16px;
 }
 
+.dots-navigation {
+  display: flex;
+  justify-content: center;
+  margin: 24px 0 40px 0;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 90px;
+}
+.dot:not(:last-child) {
+  margin-right: 10px;
+}
+.dot_color {
+  background: rgba(242, 120, 92, 0.5);
+}
+.dot_choose {
+  background: #F2785C;
+}
+
+.stories h2 {
+  margin-bottom: 40px;
+}
+
 .stories__wrapper {
   background: linear-gradient(to top, transparent 0%, rgba(255, 255, 255, 0.7) 0), url(/assets/img/footer_bg.png);
   background-repeat: no-repeat;
-}
-
-h2 {
-  margin-top: 80px;
 }
 
 .story {
@@ -335,17 +357,36 @@ h2 {
   background-position: bottom;
   width: 100%;
 }
+.footer__description {
+  display: flex;
+  flex-basis: 90%;
+  justify-content: center;
+  padding: 21px 0;
+  margin-left: 100px;
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  color: #FFFFFF;
+}
 
 .social {
+  flex-basis: 10%;
+}
+.social__list {
+  display: flex;
+  align-items: center;
   list-style: none;
+  justify-content: end;
+}
+.social__list li:not(:last-child) {
+  margin-right: 24px;
 }
 
 .footer__wrapper {
   display: flex;
-}
-
-.social__list {
-  display: flex;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
