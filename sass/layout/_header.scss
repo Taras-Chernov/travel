@@ -35,10 +35,11 @@
 }
 
 .header__navigation {
-    margin-left: -67px;
+    margin-left: -75px;
 }
 
 .navigation_link{
+    padding: 4px 0 0 42px;
     color: $color-main;
     font-family: 'Red Hat Text';
     font-style: normal;
@@ -53,6 +54,6 @@
     }
 }
 
-.navigation_link:not(:first-child) {
-    padding-left: 42px;
+.header__button {
+    margin: 2.5px -1px 0 0;
 }
