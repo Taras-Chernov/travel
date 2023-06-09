@@ -112,7 +112,7 @@ ul {
 .button__destinations {
   display: flex;
   justify-content: center;
-  margin: 15px 0 0 4px;
+  margin: 15px 0 80px 4px;
 }
 
 .layout-3-column {
@@ -190,7 +190,6 @@ ul {
   background: url(/assets/img/header-bg.png);
   background-size: cover;
   background-position: center;
-  margin-bottom: 80px;
 }
 .preview__content {
   max-width: 892px;
@@ -221,6 +220,10 @@ ul {
   line-height: 2.9rem;
   color: #F2785C;
   padding-left: 41px;
+}
+
+.steps h2 {
+  padding-top: 80px;
 }
 
 .step {
@@ -259,7 +262,6 @@ ul {
 
 .destinations {
   overflow: hidden;
-  margin-bottom: 80px;
 }
 
 .slider {
