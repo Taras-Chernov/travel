@@ -12,10 +12,7 @@
         top: 718px;
         left: 15px;
         font-family: 'Red Hat Text';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 32px;
-        line-height: 42px;
+        @include font ($size: 3.2rem, $height:4.2rem, $weight: 500);
         color: $color-main;
     }
     &__item {

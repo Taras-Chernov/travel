@@ -17,11 +17,7 @@
     }
     &__text  {
         padding-top: 33px;
-        font-family: 'Aleo';
-        font-style: italic;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 24px;
+        @include font ($size: 2rem, $height:2.4rem, $weight: 700, $style: italic);
         color: $color-main;
     }
     &__planning {
@@ -33,11 +29,7 @@
         margin: 45px 0 255px 0px;
     }
     &__placeholder {
-        font-family: 'Aleo';
-        font-style: italic;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 29px;
+        @include font ($size: 2.4rem, $height:2.9rem, $weight: 400, $style: italic);
         color: $color-planning;
         padding-left: 41px;
     }

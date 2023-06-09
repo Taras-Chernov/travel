@@ -200,11 +200,10 @@ ul {
 }
 .preview__text {
   padding-top: 33px;
-  font-family: "Aleo";
-  font-style: italic;
+  font-size: 2rem;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
+  font-style: italic;
+  line-height: 2.4rem;
   color: #FFFFFF;
 }
 .preview__planning {
@@ -216,11 +215,10 @@ ul {
   margin: 45px 0 255px 0px;
 }
 .preview__placeholder {
-  font-family: "Aleo";
-  font-style: italic;
+  font-size: 2.4rem;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 29px;
+  font-style: italic;
+  line-height: 2.9rem;
   color: #F2785C;
   padding-left: 41px;
 }
@@ -252,10 +250,9 @@ ul {
 }
 .step p {
   margin-top: 30px;
-  font-family: "Aleo";
-  font-style: normal;
-  font-weight: 400;
   font-size: 2rem;
+  font-weight: 400;
+  font-style: normal;
   line-height: 2.4rem;
   color: #0D606F;
 }
@@ -275,10 +272,10 @@ ul {
   top: 718px;
   left: 15px;
   font-family: "Red Hat Text";
-  font-style: normal;
+  font-size: 3.2rem;
   font-weight: 500;
-  font-size: 32px;
-  line-height: 42px;
+  font-style: normal;
+  line-height: 4.2rem;
   color: #FFFFFF;
 }
 .slider__item {
@@ -371,9 +368,9 @@ ul {
   padding: 21px 0;
   margin-left: 144px;
   font-family: "Red Hat Text";
-  font-style: normal;
-  font-weight: 500;
   font-size: 1.6rem;
+  font-weight: 500;
+  font-style: normal;
   line-height: 2.1rem;
   color: #FFFFFF;
 }
