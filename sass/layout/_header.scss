@@ -21,10 +21,10 @@
     font-size: 1.6rem;
     line-height: 2.1rem;
     &__item{
-        padding: 4px 0 0 42px;
         list-style: none;
         }
     &__link {
+        padding: 4px 0 0 43px;
         color: $color-main;
         font-family: 'Red Hat Text';
         @include font ($size: 1.6rem, $height:2.1rem, $weight: 500);
@@ -44,11 +44,6 @@
     text-decoration: none;
     padding: 26px 0 24px 0;
 }
-
-/*.logo_icon{
-    max-width: 30px;
-    padding-right: 6px;
-}*/
 
 .header__button {
     margin: 2.5px -1px 0 0;
