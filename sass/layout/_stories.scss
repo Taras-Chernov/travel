@@ -2,9 +2,9 @@
     & h2{
         margin-bottom: 40px;
     }
-}
-.stories__wrapper {
-    background: linear-gradient(to top, transparent 0%, rgba(255, 255, 255, 0.7) 0), url(/assets/img/footer_bg.png);
+    &__wrapper{
+        background: linear-gradient(to top, transparent 0%, rgba(255, 255, 255, 0.7) 0), url(/assets/img/footer_bg.png);
+    }
 }
 
 .story {
