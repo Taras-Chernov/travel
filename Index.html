@@ -17,14 +17,22 @@
     <header class="header">
         <div class="wrapper header__wrapper">
             <a href="#" class="logo">
-                <object type="image/svg+xml" data="/assets/icon/logo.svg" class="logo-object"></object>
+                <object type="image/svg+xml" data="/assets/icon/logo.svg"></object>
                 Travel Portal</a>
             <nav class="header__navigation">
                 <ul class="navigation">
-                    <li class="navigation_link">How It Works</li>
-                    <li class="navigation_link">Plan Your Trip</li>
-                    <li class="navigation_link">Destinations</li>
-                    <li class="navigation_link">Travel Stories</li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#preview">How It Works</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#steps">Plan Your Trip</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#destinations">Destinations</a>
+                    </li>
+                    <li class="navigation__item"> 
+                        <a class="navigation__link" href="#stories">Travel Stories</a>
+                    </li>
                 </ul>
             </nav>
             <div class="header__button">
@@ -33,7 +41,7 @@
         </div>
     </header>
     <main>
-        <section class="preview">
+        <section class="preview" id="preview">
             <div class="wrapper preview__wrapper">
                 <div class="preview__content">
                     <h1 class="preview__title">Explore the beauty of the World</h1>
@@ -45,7 +53,7 @@
                 </div>
             </div>
         </section>
-        <section class="steps">
+        <section class="steps" id="steps">
             <div class="wrapper">
                 <h2>3 STEPS TO THE PERFECT TRIP</h2>
                 <div class="layout-3-column">
@@ -70,7 +78,7 @@
                 </div>
             </div>
         </section>
-        <section class="destinations">
+        <section class="destinations" id="destinations">
             <div class="wrapper destinations__wrapper">
                 <h2>POPULAR DESTINATIONS</h2>
                 <div class="slider">
@@ -99,7 +107,7 @@
                 </div>
             </div>
         </section>
-        <section class="stories">
+        <section class="stories" id="stories">
             <h2>TRAVEL STORIES</h2>
             <div class="stories__wrapper">
                 <div class="wrapper">

@@ -1,4 +1,4 @@
-.navigation_link, .button {
+.navigation__link, .button {
   transition: all 0.3s ease-out;
 }
 
@@ -7,6 +7,7 @@
 }
 
 html {
+  scroll-behavior: smooth;
   font-size: 10px;
 }
 
@@ -137,47 +138,48 @@ ul {
   justify-content: space-between;
 }
 
+.header__navigation {
+  margin-left: -75px;
+}
+
 .navigation {
   display: flex;
   font-size: 1.6rem;
   line-height: 2.1rem;
 }
+.navigation__item {
+  padding: 4px 0 0 42px;
+  list-style: none;
+}
+.navigation__link {
+  color: #FFFFFF;
+  font-family: "Red Hat Text";
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 2.1rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+.navigation__link:hover {
+  color: #0D606F;
+}
 
 .logo {
   color: #FFFFFF;
   font-family: "Magra";
-  font-style: normal;
-  font-weight: 600;
   font-size: 3.2rem;
+  font-weight: 600;
+  font-style: normal;
   line-height: 3.9rem;
   text-decoration: none;
   padding: 26px 0 24px 0;
 }
 
-.logo_icon {
-  max-width: 30px;
-  padding-right: 6px;
-}
-
-.header__navigation {
-  margin-left: -75px;
-}
-
-.navigation_link {
-  padding: 4px 0 0 42px;
-  color: #FFFFFF;
-  font-family: "Red Hat Text";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.6rem;
-  line-height: 2.1rem;
-  list-style: none;
-  cursor: pointer;
-}
-.navigation_link:hover {
-  color: #0D606F;
-}
-
+/*.logo_icon{
+    max-width: 30px;
+    padding-right: 6px;
+}*/
 .header__button {
   margin: 2.5px -1px 0 0;
 }
