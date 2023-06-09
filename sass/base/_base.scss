@@ -25,14 +25,14 @@
 
   h3 {
     @include font ($size: 3.5rem, $height:4.2rem, $weight: 400);
-    font-family: 'Aleo', Verdana, sans-serif;
+    @extend %font-primary;
     margin: 0;
     color: $color-text;
   }
 
   p {
     @include font ($size: 2rem, $height:2.4rem, $weight: 400);
-    font-family: 'Aleo', Verdana, sans-serif;
+    @extend %font-primary;
     color: $color-text;
     margin: 0;
   }

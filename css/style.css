@@ -2,7 +2,7 @@
   transition: all 0.3s ease-out;
 }
 
-h1 {
+.story__hide, p, h3, h1 {
   font-family: "Aleo", Verdana, sans-serif;
 }
 
@@ -42,7 +42,6 @@ h3 {
   font-weight: 400;
   font-style: normal;
   line-height: 4.2rem;
-  font-family: "Aleo", Verdana, sans-serif;
   margin: 0;
   color: #0D606F;
 }
@@ -52,7 +51,6 @@ p {
   font-weight: 400;
   font-style: normal;
   line-height: 2.4rem;
-  font-family: "Aleo", Verdana, sans-serif;
   color: #0D606F;
   margin: 0;
 }
@@ -203,7 +201,7 @@ ul {
   padding-top: 122px;
 }
 .preview__text {
-  padding-top: 35px;
+  padding-top: 33px;
   font-family: "Aleo";
   font-style: italic;
   font-weight: 700;
@@ -217,7 +215,7 @@ ul {
   justify-content: space-between;
   background: rgba(255, 255, 255, 0.7);
   border-radius: 16px;
-  margin: 43px 0 255px 0px;
+  margin: 45px 0 255px 0px;
 }
 .preview__placeholder {
   font-family: "Aleo";
@@ -240,7 +238,7 @@ ul {
   margin-left: -45px;
 }
 .step:nth-child(2) {
-  margin-left: 42px;
+  margin-left: 37px;
 }
 .step:nth-child(3) {
   margin-right: -10px;
@@ -348,7 +346,6 @@ ul {
   border-radius: 16px;
 }
 .story__hide {
-  font-family: Aleo;
   font-size: 2rem;
   font-weight: 400;
   font-style: normal;
@@ -360,7 +357,7 @@ ul {
 }
 .story__button {
   text-align: center;
-  padding: 40px 0;
+  padding: 38px 0;
 }
 
 .footer {
@@ -374,7 +371,7 @@ ul {
   flex-basis: 90%;
   justify-content: center;
   padding: 21px 0;
-  margin-left: 135px;
+  margin-left: 144px;
   font-family: "Red Hat Text";
   font-style: normal;
   font-weight: 500;

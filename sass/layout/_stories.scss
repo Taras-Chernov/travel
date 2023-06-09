@@ -29,7 +29,7 @@
         border-radius: 16px;
     }
     &__hide {
-        font-family: Aleo;
+        @extend %font-primary;
         @include font ($size: 2rem, $height:2.4rem, $weight: 400);
         color: #0D606F;
     }
@@ -38,6 +38,6 @@
     }
     &__button {
         text-align: center;
-        padding: 40px 0;
+        padding: 38px 0;
     }
 }
