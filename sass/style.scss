@@ -1,19 +1,16 @@
-//contants
+//constants
 @import "../sass/abstracts/constants";
 @import "../sass/abstracts/mixins";
 @import "../sass/abstracts/placeholders";
-//core
+//base
 @import "../sass/base/base";
 @import "../sass/base/wrapper";
-
-
-//layouts
-@import "../sass/layout/columns";
 
 //components
 @import "../sass/components/buttons";
 
 //layout
+@import "../sass/layout/columns";
 @import "../sass/layout/header";
 @import "../sass/layout/preview";
 @import "../sass/layout/steps";
